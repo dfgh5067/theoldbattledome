@@ -22,7 +22,7 @@ Ex. Battle Plunger: water,(2;7;1;-1)
 
 The 'Useage' column indicates breakability from 0 - 4
 0 - multiuse (never breaks)
-1 - chance of breaking on each use, and maybe break-on-success
+1 - chance of breaking on each use, and maybe break-on-success (can't remember, and can't find my notes)
   Ex. Pirate Captains Hat has a 50% chance to break on each use (entered in db as "1,0.5")
 2 - once per battle
 3 - perma-break on success or by random roll on each use
