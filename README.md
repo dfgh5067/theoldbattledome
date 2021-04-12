@@ -1,6 +1,8 @@
 # theoldbattledome
 Re-creation of the original Neopets Battledome
 
+Main branch is for sandbox mode only.
+
 Notes on database notation:
 A number of 1000+ indicates a percent-based effect. (Used for defense, heal, drain)
 Ex. "light,1100" indicates 100% light defense
