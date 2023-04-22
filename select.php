@@ -3,10 +3,7 @@ session_start();
 require('functions.php');
 require('layout.php');
 
-$user = "";
-if(isset($_SESSION['username'])){
-	$user = $_SESSION['username'];
-}
+$user = "test";
 
 ?>
 
