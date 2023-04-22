@@ -3,9 +3,8 @@ session_start();
 require('functions.php');
 require('layout.php');
 
-$user = "";
-if(isset($_SESSION['username'])){
-	$user = $_SESSION['username'];
+$user = "test";
+if(true){
 	
 	if(isset($_GET['changeStats'])){ //let user customize pet stats (sandbox only)
 		$msg = update_pet_stats($user);
