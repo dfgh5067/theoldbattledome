@@ -6,7 +6,7 @@ $con = connect_to_server();
 ?>
 
 <?php
-$user = $_SESSION['username'];
+$user = "test";
 $petname = $_GET['pet'];
 if(!checkPetName($petname, $user)){ //check when trying to start battle
 	echo "Error: You don't own that pet. <br> <a href=\"select.php\">&lt;&lt;&lt;Back</a>";
